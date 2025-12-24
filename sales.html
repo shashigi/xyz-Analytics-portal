@@ -3,6 +3,7 @@
 <head>
   <link rel="stylesheet" href="styles.css">
   <title>XYZ Analytics Portal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
   <div class="sidebar">
@@ -14,13 +15,12 @@
   </div>
 
   <div class="main">
-    <iframe
-      src="https://public.tableau.com/views/SalesDashboard_Shashi/SalesDashboard?:showVizHome=no"
-      width="100%"
-      height="980"
-      frameborder="0"
-      allowfullscreen>
-   </iframe>
+    <div class="tableau-container">
+  <iframe
+    src="https://public.tableau.com/views/SalesDashboard_Shashi/SalesDashboard?:showVizHome=no&:toolbar=no&:embed=yes">
+  </iframe>
+</div>
+
 
   </div>
 </body>
