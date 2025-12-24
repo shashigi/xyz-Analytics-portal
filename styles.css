@@ -102,26 +102,43 @@ body {
 /* Mobile layout*/
 @media (max-width: 768px) {
 
+  /* Base text adjustments */
   body {
     font-size: 15px;
-  }
-
-  .cards {
-    flex-direction: column;
-  }
-
-  .card {
-    margin-bottom: 20px;
+    overflow-x: hidden;   /* prevent horizontal scroll */
   }
 
   h1 {
     font-size: 28px;
+    text-align: center;
   }
 
   p {
     font-size: 16px;
+    text-align: center;
+  }
+
+  /* Reset main content offset (IMPORTANT) */
+  .main {
+    margin-left: 0;
+    padding: 16px;
   }
 }
+  /* Cards container */
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   /* centers cards */
+    width: 100%;
+  }
+
+  /* Individual card */
+  .card {
+    width: 100%;
+    max-width: 420px;      /* prevents overflow */
+    margin: 0 auto 20px auto;
+    box-sizing: border-box;
+  }
 
 @media (max-width: 768px) {
 
