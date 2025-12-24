@@ -103,7 +103,7 @@ body {
 @media (max-width: 768px) {
 
   /* Base text adjustments */
-  html, body {
+  body {
     font-size: 15px;
     width: 100%;
     margin: 0;
@@ -198,3 +198,4 @@ body {
   color: #18837e;
   font-size: 13px;
 }
+
