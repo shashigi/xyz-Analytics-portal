@@ -105,9 +105,6 @@ body {
   /* Base text adjustments */
   body {
     font-size: 15px;
-    width: 100%;
-    margin: 0;
-    padding: 0;
     overflow-x: hidden;   /* prevent horizontal scroll */
   }
 
@@ -125,7 +122,6 @@ body {
   .main {
     margin-left: 0;
     padding: 16px;
-    width: 100%;
   }
 }
   /* Cards container */
@@ -159,8 +155,6 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    left: 0;
-    top: 0;
   }
 
   .sidebar img {
@@ -198,4 +192,3 @@ body {
   color: #18837e;
   font-size: 13px;
 }
-
